@@ -1,0 +1,66 @@
+[{
+  "roomName":"No 34",
+  "stars": 4,
+  "img":"./director.jpeg",
+  "price":90,
+  "persons": 4,
+  "roomsNumber":"four rooms",
+  "view":"on fifth floor",
+  "lights":"dark of the room",
+  "moreImg":"img.jpeg"
+},
+{
+"roomName":"No 25",
+"stars": 5,
+"img":"./director.jpeg",
+"price":30,
+"persons":2,
+"roomsNumber":"three rooms",
+"view":"on third floor",
+"lights":"lights of the room",
+"moreImg":"img.jpeg"
+},
+{
+"roomName":"No 43",
+"stars": 3,
+"img":"./director.jpeg",
+"price":300,
+"persons":9,
+"roomsNumber":"two rooms",
+"view":"on neinth floor",
+"lights":"grey of the room",
+"moreImg":"img.jpeg"
+},
+{
+  "roomName":"No 34",
+  "stars": 4,
+  "img":"./director.jpeg",
+  "price":60,
+  "persons": 4,
+  "roomsNumber":"four rooms",
+  "view":"on fifth floor",
+  "lights":"dark of the room",
+  "moreImg":"img.jpeg"
+},
+{
+"roomName":"No 25",
+"stars": 5,
+"img":"./director.jpeg",
+"price":70,
+"persons":2,
+"roomsNumber":"three rooms",
+"view":"on third floor",
+"lights":"lights of the room",
+"moreImg":"img.jpeg"
+},
+{
+"roomName":"No 43",
+"stars": 3,
+"img":"./director.jpeg",
+"price":99,
+"persons":9,
+"roomsNumber":"two rooms",
+"view":"on neinth floor",
+"lights":"grey of the room",
+"moreImg":"img.jpeg"
+}]
