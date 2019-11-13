@@ -10,8 +10,8 @@ class RequestComp extends Component {
   }
    async componentWillMount(){
      await axios                   // this returns an error message from the catch
-    .get('./rooms.json')
-    // .then((res)=> JSON.parse(res))
+    .get('./namings.json')
+    .then((res)=> JSON.parse(res))
     .then(({ data })=> {
       console.log(data);
       this.setState(
@@ -23,7 +23,7 @@ class RequestComp extends Component {
 render() {
     return (
         <div>
-            Users: <p>{this.state.users.roomName}</p>
+            Users: <p>{this.state.users.TheName}</p>
         </div>
     )
 }

@@ -4,24 +4,14 @@ class RequestFetchComp extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      names: [{
-          "roomName":"klodian",
-          "stars": 1,
-          "img":"./director.jpeg",
-          "price":90,
-          "persons": 4,
-          "roomsNumber":"four rooms",
-          "view":"on fifth floor",
-          "lights":"dark of the room",
-          "moreImg":"img.jpeg"
-        }]
+      names: [{}]
     }
   }
-   componentDidMount(){
-      fetch("./rooms.json", // this works fine on the console but does not output the names
+  componentWillMount(){
+      fetch("./namings.json", // this works fine on the console but does not output the names
         { headers: {'Content-Type': 'application/json'}}
       ).then((response)=>{
-          console.log(response);
+          console.log("the fetch response of request: " + response);
         this.setState({
           names: response
         })
@@ -29,7 +19,8 @@ class RequestFetchComp extends Component {
   }
 render() {
     return(
-        <div>Names:<p>{ this.state.names.roomName }{console.log(this.state.names.roomName)}</p></div>
+        <div>Names:<p>{ this.state.names.TheName }
+        {console.log("the log of names on the render " + this.state.names.TheName)}</p></div>
     )
 }
 }
